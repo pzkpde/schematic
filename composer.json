@@ -1,0 +1,16 @@
+{
+    "name": "pzkpde/schematic",
+	"autoload": {
+		"psr-4": {
+			"Schematic\\": "src/"
+		}
+	},
+	"require": {},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Schematic\\SchematicServiceProvider"
+			]
+		}
+	}
+}
